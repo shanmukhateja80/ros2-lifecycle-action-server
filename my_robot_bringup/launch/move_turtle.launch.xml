@@ -1,0 +1,30 @@
+<launch>
+
+  <!-- Start turtlesim -->
+  <node
+    pkg="turtlesim"
+    exec="turtlesim_node"
+    name="turtlesim"
+    output="screen" />
+
+  <!-- Lifecycle Move Turtle Node -->
+  <node
+    pkg="actions_py"
+    exec="move_turtle"
+    name="move_turtle"
+    output="screen">
+    <param name="name" value="turtle2"/>
+  </node>
+
+  <!-- Lifecycle Manager -->
+
+  <node
+   pkg="lifecycle_py"
+   exec="lifecycle_node_manager"
+   name="lifecycle_manager"
+   output="screen">
+   <param name="managed_node_name" value="move_turtle"/>
+</node>
+
+
+</launch>
