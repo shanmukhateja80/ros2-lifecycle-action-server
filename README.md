@@ -1,38 +1,3 @@
-Perfect ✅
-Here is your **final clean + professional README** and **short GitHub description** for:
-
-```
-ros2-lifecycle-action-server
-```
-
-This version is:
-
-✔ Professional
-✔ Technical
-✔ Not tutorial-sounding
-✔ Recruiter-friendly
-✔ Architecture-focused
-
----
-
-# 🔹 GitHub Repository Description (Short)
-
-Lifecycle-Managed Action Server for turtle motion control using ROS2 Jazzy (Actions, Executors, Concurrency, State Management)
-
----
-
-# 🔹 README.md (Final Version)
-
-Copy everything below into your README:
-
----
-
-# 🚀 ROS2 Lifecycle-Managed Action Server
-
-**Turtlesim Motion Control | ROS2 Jazzy | Actions | Concurrency**
-
----
-
 ## 📌 Overview
 
 This project implements a Lifecycle-Managed Action Server to control turtle motion inside turtlesim using ROS2 Jazzy.
